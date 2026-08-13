@@ -8,10 +8,10 @@ Golden Crust Kota Place Website
 ---
 
 ## Student Information
-- **Student Name:** lesedi Potsane
+- **Student Name:** Lesedi Potsane
 - **Student Number:** ST10513400
 - **Module:** WEDE5020 - Web Development (Introduction)
-- **Submission Date:** 31 July 2026
+- **Submission Date:** 14 August 2026
 
 ---
 
@@ -22,8 +22,6 @@ Golden Crust Kota Place is a small food business located in Orlando West, Soweto
 The business started as a street food cart in 2018 and grew into a permanent shopfront by 2020. Today, Golden Crust serves over 200 customers daily and is known for its signature "Crunchy Kota" which features a secret spice blend passed down from the founder's grandmother.
 
 This project involves creating a professional website for the business to help increase its online presence and facilitate online ordering. The website allows customers to view the menu, learn about the business, place orders, and contact the business directly.
-
-The primary goal of this project is to create a functional and visually appealing website that meets the needs of the target organisation. The website should be easy to navigate, informative, and engaging for users.
 
 ---
 
@@ -63,7 +61,6 @@ The primary goal of this project is to create a functional and visually appealin
 | Contact Form | Customers can send enquiries directly |
 | Social Media Integration | Links to WhatsApp, Facebook, and Instagram |
 | Gallery | Photos of the business, food, and team |
-| Newsletter Sign-up | Customers can subscribe for updates |
 
 ### Pages Included
 
