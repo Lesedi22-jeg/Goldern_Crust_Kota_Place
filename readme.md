@@ -8,10 +8,10 @@ Golden Crust Kota Place Website
 ---
 
 ## Student Information
-- **Student Name:** Lesedi Potsane
-- **Student Number:** ST10513400
-- **Module:** WEDE5020 - Web Development (Introduction)
-- **Submission Date:** 14 August 2026
+ Lesedi Potsane
+ ST10513400
+ WEDE5020 - Web Development (Introduction)
+ 14 August 2026
 
 ---
 
@@ -37,13 +37,10 @@ This project involves creating a professional website for the business to help i
 
 ### Key Performance Indicators (KPIs)
 
-| KPI | Target | Measurement Method |
-|-----|--------|-------------------|
-| Online orders | 30+ per week | Order management system |
-| Website visitors | 500+ monthly | Google Analytics |
-| Social media growth | 25% increase | Platform analytics |
-| Return customers | 60% of online orders | Customer database |
-| Special offer redemptions | 40% of visitors | Promo code tracking |
+- 30+ weekly online orders
+- 500+ monthly website visitors
+- 25% social media growth
+- 60% return customer rate
 
 ---
 
@@ -51,28 +48,24 @@ This project involves creating a professional website for the business to help i
 
 ### Core Features
 
-| Feature | Description |
-|---------|-------------|
-| Online Ordering System | Customers can place orders for pickup using a simple form |
-| Digital Menu | Complete menu with descriptions and prices |
-| Daily Specials | Promotions and deals displayed prominently |
-| Customer Reviews | Testimonials from satisfied customers |
-| Location Information | Business location with Google Maps link |
-| Contact Form | Customers can send enquiries directly |
-| Social Media Integration | Links to WhatsApp, Facebook, and Instagram |
-| Gallery | Photos of the business, food, and team |
+- Online Ordering System - Customers can place orders for pickup using a simple form
+- Digital Menu - Complete menu with descriptions and prices
+- Daily Specials - Promotions and deals displayed prominently
+- Customer Reviews - Testimonials from satisfied customers
+- Location Information - Business location with Google Maps link
+- Contact Form - Customers can send enquiries directly
+- Social Media Integration - Links to WhatsApp, Facebook, and Instagram
+- Gallery - Photos of the business, food, and team
 
 ### Pages Included
 
-| Page | File Name | Description |
-|------|-----------|-------------|
-| Homepage | index.html | Welcome message, specials, reviews, location, and hours |
-| About Us | about.html | Business history, mission, vision, team, and values |
-| Menu | menu.html | Complete menu with descriptions and prices |
-| Order Online | order.html | Online ordering form |
-| Specials | specials.html | Daily specials and monthly deals |
-| Gallery | gallery.html | Photo gallery of the business |
-| Contact | contact.html | Contact details, location, and enquiry form |
+- Homepage (index.html) - Welcome message, specials, reviews, location, and hours
+- About Us (about.html) - Business history, mission, vision, team, and values
+- Menu (menu.html) - Complete menu with descriptions and prices
+- Order Online (order.html) - Online ordering form
+- Specials (specials.html) - Daily specials and monthly deals
+- Gallery (gallery.html) - Photo gallery of the business
+- Contact (contact.html) - Contact details, location, and enquiry form
 
 ---
 
