@@ -11,7 +11,7 @@ Golden Crust Kota Place Website
  Lesedi Potsane
  ST10513400
  WEDE5020 - Web Development (Introduction)
- 14 August 2026
+ 17 August 2026
 
 ---
 
@@ -70,3 +70,31 @@ This project involves creating a professional website for the business to help i
 ---
 
 ## File and Folder Structure
+## Sitemap
+- Home (index.html)
+- About Us (about.html)
+- Menu (menu.html)
+  - Order Online (order.html)
+- Specials (specials.html)
+- Gallery (gallery.html)
+- Contact Us (contact.html)
+
+## Changelog
+- **2026-09-17:** Added Sitemap to README.
+- **2026-09-17:** Added HTML comments to all 7 HTML files.
+- **2026-09-17:** Created external `style.css` and linked to all pages.
+- **2026-09-17:** Implemented CSS reset, typography, color scheme, and layout (Flexbox & Grid).
+- **2026-09-17:** Added responsive design features (Media Queries for Tablet and Mobile).
+
+## References
+- W3Schools. (2024). *CSS Media Queries*.
+- MDN Web Docs. (2024). *CSS Layout*.
+## Responsive Design Testing
+### Desktop View
+![Desktop View](screenshots/desktop.png)
+
+### Tablet View
+![Tablet View](screenshots/tablet.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile.png)

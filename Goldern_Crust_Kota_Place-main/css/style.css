@@ -1,0 +1,86 @@
+/* =========================================
+   1. CSS RESET & DEFAULT STYLES
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #fffaf5; /* Warm background */
+}
+
+/* =========================================
+   2. TYPOGRAPHY STYLES
+   ========================================= */
+h1, h2, h3 {
+    color: #b93a26; /* Kota brand red */
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; margin-top: 2rem; }
+p { font-size: 1rem; margin-bottom: 1rem; }
+
+/* =========================================
+   3. LAYOUT STRUCTURE (DESKTOP DEFAULT)
+   ========================================= */
+header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover { color: #b93a26; }
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    margin-top: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* =========================================
+   4. RESPONSIVE DESIGN (TABLET & MOBILE)
+   ========================================= */
+@media (max-width: 768px) {
+    nav { flex-direction: column; align-items: center; gap: 0.8rem; }
+    h1 { font-size: 2rem; }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.5rem; }
+    button, input[type="submit"] { width: 100%; }
+}

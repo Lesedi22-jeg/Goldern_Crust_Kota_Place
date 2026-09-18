@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Golden Crust Kota Place</title>
+    <!-- LINK TO EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Golden Crust Kota Place</h1>
+        <p>Soweto's Best Kota Since 2018</p>
+        
+        <!-- NAVIGATION MENU -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order Online</a>
+            <a href="specials.html">Specials</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+        <!-- ORDER FORM HEADING -->
+        <section>
+            <h2>Order Online</h2>
+            <p>Fill in the form below to place your Golden Crust Kota order.</p>
+        </section>
+
+        <!-- ORDER FORM -->
+        <section>
+            <form>
+                <h3>Customer Information</h3>
+                <label>Full Name:</label>
+                <input type="text" name="fullname" required>
+
+                <label>Phone Number:</label>
+                <input type="tel" name="phone" required>
+
+                <label>Email Address:</label>
+                <input type="email" name="email" required>
+
+                <h3>Choose Your Meal</h3>
+                <label>Select Meal:</label>
+                <select name="meal">
+                    <option value="">-- Select a meal --</option>
+                    <option value="crunchy">Crunchy Kota</option>
+                    <option value="classic">Classic Kota</option>
+                    <option value="combo">Combo Deal (R45)</option>
+                    <option value="family">Family Pack (R120)</option>
+                </select>
+
+                <label>Quantity:</label>
+                <input type="number" name="quantity" min="1" value="1">
+
+                <h3>Order Type</h3>
+                <label><input type="radio" name="ordertype" value="pickup"> Pick-up</label>
+                <label><input type="radio" name="ordertype" value="delivery"> Delivery</label>
+
+                <h3>Additional Information</h3>
+                <label>Special Requests:</label>
+                <textarea name="requests" rows="4"></textarea>
+
+                <button type="submit">Place Order</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>&copy; 2026 Golden Crust Kota Place. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
