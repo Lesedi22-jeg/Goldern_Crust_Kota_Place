@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/index.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/about.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/menu.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/order.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/specials.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/gallery.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/contact.html</loc></url>
+  <url><loc>https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/enquiry.html</loc></url>
+</urlset>

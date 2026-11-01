@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Golden Crust Kota Place</title>
+        <!-- SEO Meta Tags -->
+    <meta name="description" content="Golden Crust Kota Place - Soweto's Best Kota Since 2018. Order authentic South African street food online.">
+    <meta name="keywords" content="Kota, Soweto, South African food, street food, Golden Crust, Orlando West, takeaways">
+    <meta name="author" content="Lesedi Potsane">
+    <meta name="description" content="Enquire about catering, events, or sponsorships at Golden Crust Kota Place.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Golden Crust Kota Place</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order Online</a>
+            <a href="specials.html">Specials</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Make an Enquiry</h2>
+        <p>Enquire about catering for your event, or ask about becoming a sponsor.</p>
+        
+        <!-- Form with validation -->
+        <form onsubmit="return validateForm(event)">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Enquiry:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer><p>&copy; 2026 Golden Crust Kota Place.</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://github.com/Lesedi22-jeg/Golden_Crust_Kota_Place/sitemap.xml
