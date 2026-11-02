@@ -4,21 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Golden Crust Kota Place</title>
-        <!-- SEO Meta Tags -->
-    <meta name="description" content="Golden Crust Kota Place - Soweto's Best Kota Since 2018. Order authentic South African street food online.">
-    <meta name="keywords" content="Kota, Soweto, South African food, street food, Golden Crust, Orlando West, takeaways">
-    <meta name="author" content="Lesedi Potsane">
-    <!-- LINK TO EXTERNAL CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <!-- HEADER SECTION -->
     <header>
         <h1>Golden Crust Kota Place</h1>
         <p>Soweto's Best Kota Since 2018</p>
-        
-        <!-- NAVIGATION MENU -->
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -30,35 +21,37 @@
         </nav>
     </header>
 
-    <!-- MAIN CONTENT AREA -->
-        <!-- MAIN CONTENT AREA -->
     <main>
         <section>
             <h2>Golden Crust Gallery</h2>
             <p>Click on any image to view it in a larger Lightbox.</p>
         </section>
 
-        <!-- GALLERY GRID -->
         <section class="gallery-container">
-            <!-- Notice I changed the src to your real image names -->
-            <img src="images/crunchy-kota.jpg" alt="Our famous Crunchy Kota" onclick="openLightbox(this.src)" style="cursor:pointer;">
-            <img src="images/combo-meal.jpeg" alt="Golden Crust Combo Deal" onclick="openLightbox(this.src)" style="cursor:pointer;">
-            <img src="images/family-pack.jpg" alt="Golden Crust Family Pack" onclick="openLightbox(this.src)" style="cursor:pointer;">
+            <img src="images/crunchy-kota.jpg" onclick="openLightbox(this.src)" style="cursor:pointer;">
+            <img src="images/combo-meal.jpeg" onclick="openLightbox(this.src)" style="cursor:pointer;">
+            <img src="images/family-pack.jpg" onclick="openLightbox(this.src)" style="cursor:pointer;">
         </section>
 
-        <!-- LIGHTBOX MODAL -->
         <div id="lightbox" class="lightbox">
             <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-            <img id="lightbox-img" src="" alt="Expanded view">
+            <img id="lightbox-img" src="">
         </div>
     </main>
 
-    <!-- FOOTER SECTION -->
     <footer>
         <p>&copy; 2026 Golden Crust Kota Place. All rights reserved.</p>
     </footer>
 
-    <!-- LINK TO JAVASCRIPT -->
-    <script src="js/script.js"></script>
+    <!-- JAVASCRIPT IS NOW INSIDE THE FILE -->
+    <script>
+        function openLightbox(imageSrc) {
+            document.getElementById('lightbox').style.display = 'flex';
+            document.getElementById('lightbox-img').src = imageSrc;
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
 </body>
 </html>

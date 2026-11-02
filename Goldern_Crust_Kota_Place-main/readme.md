@@ -98,27 +98,26 @@ This project involves creating a professional website for the business to help i
 
 ### Mobile View
 ![Mobile View](screenshots/mobile.png)
-## Changelog - Part 3 (Enhancing Functionality and SEO)
+## Changelog - Part 3 (Final Submission)
 
 ### 1. Feedback from Part 2 (Fixes)
-- **Pseudo-Classes Fixed:** Added explicit `:hover` states to the navigation links (background turns red, text turns white), buttons (scales up 1.05x and changes color), and gallery images (zooms in and adds a box-shadow). 
-- **Image Adjustments Fixed:** Applied `max-width: 100%` and `object-fit: cover` to all images to ensure they scale perfectly on desktop, tablet, and mobile without breaking the layout.
+- **Pseudo-Classes:** Added explicit `:hover` states to the navigation links (background turns red, text white), buttons (scales up and changes color), and gallery images (zooms in and adds a box-shadow).
+- **Image Adjustments:** Implemented `max-width: 100%` and `object-fit: cover` to ensure all images scale perfectly and responsively on desktop, tablet, and mobile screens without breaking the layout.
 
-### 2. Functionality & JavaScript
-- **Gallery Lightbox:** Created a custom JavaScript lightbox (`js/script.js`). Clicking a gallery image now opens it in a full-screen modal with a close button.
-- **Search Bar:** Added a real-time search input on the `menu.html` page. Users can type to filter the list of Kotas instantly using JavaScript DOM manipulation.
-- **Form Validation:** Added JavaScript validation to the Contact and Enquiry forms. The script prevents submission if fields are empty or if the email format is invalid, providing immediate user feedback.
-- **Interactive Map:** Embedded a responsive Google Maps iframe on the `contact.html` page for location-based features.
+### 2. Part 3 Functionality (JavaScript)
+- **Gallery Lightbox:** Implemented a fully functional Lightbox on `gallery.html`. Clicking any image opens it in a dark modal overlay, complete with a close button.
+- **Menu Search Bar:** Added a real-time search input on `menu.html`. Using JavaScript DOM manipulation, the list of meals filters instantly as the user types.
+- **Form Validation:** Added custom JavaScript validation to `contact.html` and `enquiry.html`. The script prevents form submission if fields are empty or if an invalid email is entered, providing immediate alert feedback to the user.
+- *(Note: To ensure 100% reliability across different local file paths, the JavaScript was embedded directly into the respective HTML files at the bottom of the `<body>` tag).*
 
-### 3. New Pages & Forms
-- **Enquiry Page:** Created a brand new `enquiry.html` page specifically for catering and sponsorship inquiries, complete with a validated form.
+### 3. Interactive Map
+- **Location:** Embedded a responsive Google Maps iframe on the `contact.html` page, centered on Orlando West, Soweto.
 
 ### 4. Search Engine Optimization (SEO)
-- **Meta Tags:** Implemented `description`, `keywords`, and `author` meta tags across all HTML pages to improve search engine indexing.
-- **Robots.txt:** Created a `robots.txt` file to instruct search engine crawlers to index the site.
-- **Sitemap.xml:** Created an XML sitemap to help search engines understand the structure of the website.
-- **Alt Text & Headings:** Ensured all images have descriptive `alt` attributes and utilized proper `H1`, `H2`, and `H3` heading structures for on-page SEO.
+- **Meta Tags:** Added `description`, `keywords`, and `author` meta tags to the `<head>` of all HTML pages for better indexing.
+- **Alt Text:** Ensured all images have descriptive `alt` attributes.
+- **Robots.txt:** Created a `robots.txt` file to instruct search engine crawlers on how to index the site.
+- **Sitemap.xml:** Created an XML sitemap listing all pages to help search engines understand the site structure.
 
-### 5. GitHub & Deployment
-- Pushed all changes with descriptive commit messages.
-- Website is deployed and accessible via the GitHub repository.
+### 5. Deployment & GitHub
+- Finalized all files and pushed the complete project to the GitHub repository.

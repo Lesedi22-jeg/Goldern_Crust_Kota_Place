@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu - Golden Crust Kota Place</title>
-    <meta name="description" content="View our delicious Kota menu at Golden Crust Kota Place.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
         <h1>Golden Crust Kota Place</h1>
         <p>Soweto's Best Kota Since 2018</p>
@@ -27,17 +25,14 @@
         <section>
             <h2>Our Menu</h2>
             <p>Type in the search bar to find your favorite Kota!</p>
-            
-            <!-- THE SEARCH INPUT: Note the id and onkeyup -->
-            <input type="text" id="searchInput" onkeyup="searchMenu()" placeholder="Search for a meal (e.g., Combo)...">
+            <input type="text" id="searchInput" onkeyup="searchMenu()" placeholder="Search for a meal...">
         </section>
 
         <section>
             <h3>Kota Meals</h3>
             <ul id="menuList">
-                <!-- THE LIST ITEMS: Note the class="menu-item" -->
-                <li class="menu-item"><strong>Crunchy Kota</strong> - Our signature Golden Crust Kota (Ask in store)</li>
-                <li class="menu-item"><strong>Classic Kota</strong> - A traditional South African Kota (Ask in store)</li>
+                <li class="menu-item"><strong>Crunchy Kota</strong> - Our signature Golden Crust Kota</li>
+                <li class="menu-item"><strong>Classic Kota</strong> - A traditional South African Kota</li>
                 <li class="menu-item"><strong>Combo Deal</strong> - Kota meal combination (R45)</li>
                 <li class="menu-item"><strong>Family Pack</strong> - A generous meal for the whole family (R120)</li>
             </ul>
@@ -48,7 +43,20 @@
         <p>&copy; 2026 Golden Crust Kota Place. All rights reserved.</p>
     </footer>
 
-    <!-- THE JAVASCRIPT LINK -->
-    <script src="js/script.js"></script>
+    <!-- JAVASCRIPT IS NOW INSIDE THE FILE -->
+    <script>
+        function searchMenu() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let menuItems = document.getElementsByClassName('menu-item');
+            for (let i = 0; i < menuItems.length; i++) {
+                let itemText = menuItems[i].textContent.toLowerCase();
+                if (itemText.includes(input)) {
+                    menuItems[i].style.display = "";
+                } else {
+                    menuItems[i].style.display = "none";
+                }
+            }
+        }
+    </script>
 </body>
 </html>
