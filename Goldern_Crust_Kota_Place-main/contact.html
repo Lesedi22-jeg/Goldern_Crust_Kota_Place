@@ -31,51 +31,41 @@
     </header>
 
     <!-- MAIN CONTENT AREA -->
-    <main>
-        <!-- CONTACT HEADING -->
+        <main>
         <section>
             <h2>Contact Golden Crust Kota Place</h2>
-            <p>Have a question, want to place an order, or would like to learn more about Golden Crust? Get in touch with us.</p>
+            <p>Have a question? Get in touch with us.</p>
         </section>
 
-        <!-- CONTACT DETAILS & HOURS -->
+        <!-- INTERACTIVE MAP -->
         <section>
-            <h3>Our Location</h3>
-            <p>Orlando West, Soweto, Johannesburg, South Africa</p>
-            
-            <h3>Opening Hours</h3>
-            <table>
-                <tr><th>Day</th><th>Hours</th></tr>
-                <tr><td>Monday - Saturday</td><td>9:00 AM - 8:00 PM</td></tr>
-                <tr><td>Sunday</td><td>10:00 AM - 6:00 PM</td></tr>
-            </table>
+            <h3>Find Us</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14303.233477793495!2d27.9202321!3d-26.2376371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a00000000000%3A0x0!2sOrlando%20West%2C%20Soweto!5e0!3m2!1sen!2sza!4v1620000000000!5m2!1sen!2sza" 
+                width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy">
+            </iframe>
         </section>
 
-        <!-- CONTACT FORM -->
         <section>
             <h3>Send Us a Message</h3>
-            <form>
-                <label>Full Name:</label>
-                <input type="text" name="name" required>
+            <form onsubmit="return validateForm(event)">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
 
-                <label>Email Address:</label>
-                <input type="email" name="email" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
 
-                <label>Phone Number:</label>
-                <input type="tel" name="phone">
-
-                <label>Message:</label>
-                <textarea name="message" rows="5" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
                 <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
 
-    <!-- FOOTER SECTION -->
     <footer>
         <p>&copy; 2026 Golden Crust Kota Place. All rights reserved.</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

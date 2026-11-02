@@ -31,57 +31,29 @@
     </header>
 
     <!-- MAIN CONTENT AREA -->
-    <main>
-        <!-- MENU HEADING -->
+        <main>
         <section>
             <h2>Our Menu</h2>
-            <p>Enjoy delicious and authentic South African Kota made with fresh ingredients and generous portions.</p>
+            <p>Type in the search bar to find your favorite Kota!</p>
+            
+            <!-- SEARCH BAR -->
+            <input type="text" id="searchInput" onkeyup="searchMenu()" placeholder="Search for a meal (e.g., Combo)...">
         </section>
 
-        <!-- MENU TABLE -->
         <section>
             <h3>Kota Meals</h3>
-            <table>
-                <tr>
-                    <th>Meal</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Crunchy Kota</td>
-                    <td>Our signature Golden Crust Kota</td>
-                    <td>Ask in store</td>
-                </tr>
-                <tr>
-                    <td>Classic Kota</td>
-                    <td>A traditional South African Kota</td>
-                    <td>Ask in store</td>
-                </tr>
-                <tr>
-                    <td>Combo Deal</td>
-                    <td>Kota meal combination</td>
-                    <td>R45</td>
-                </tr>
-                <tr>
-                    <td>Family Pack</td>
-                    <td>A generous meal for the whole family</td>
-                    <td>R120</td>
-                </tr>
-            </table>
-        </section>
-
-        <!-- SIGNATURE DISH SECTION -->
-        <section>
-            <h3>Our Signature Crunchy Kota</h3>
-            <p>Our Crunchy Kota is one of Golden Crust's most popular meals and is known for its distinctive taste and generous portions.</p>
-            <p>Visit us in Orlando West and experience the taste of authentic township street food.</p>
+            <ul id="menuList">
+                <li class="menu-item"><strong>Crunchy Kota</strong> - Our signature Golden Crust Kota (Ask in store)</li>
+                <li class="menu-item"><strong>Classic Kota</strong> - A traditional South African Kota (Ask in store)</li>
+                <li class="menu-item"><strong>Combo Deal</strong> - Kota meal combination (R45)</li>
+                <li class="menu-item"><strong>Family Pack</strong> - A generous meal for the whole family (R120)</li>
+            </ul>
         </section>
     </main>
 
-    <!-- FOOTER SECTION -->
     <footer>
         <p>&copy; 2026 Golden Crust Kota Place. All rights reserved.</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
